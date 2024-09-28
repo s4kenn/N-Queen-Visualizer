@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#board {
+  display: grid;
+  margin-right: 20px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.white {
+  background-color: #f0f0f0;
+}
+
+.black {
+  background-color: #333;
+  color: #fff;
+}
+
+.queen {
+  color: red;
+}
+
+#logs {
+  max-height: 400px; 
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.log-entry {
+  margin-bottom: 5px;
+}
